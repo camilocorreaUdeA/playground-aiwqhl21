@@ -1,4 +1,8 @@
 title: Primer playground C++
 plan:
-- title: C++ Snippet
-  statement: statement.md
+#- title: 
+#  statement: statement.md
+  - title: C++ Snippet
+    statement: markdowns/welcome.md
+  - title: Part 2
+    statement: markdowns/part2.md
