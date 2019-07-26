@@ -8,3 +8,9 @@ plan:
   statement: markdowns/part2.md
 - title: Quiz
   statement: markdowns/quiz.md
+projects:
+  cpp:
+    root: /cpp-exercise
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
