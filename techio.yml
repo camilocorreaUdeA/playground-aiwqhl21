@@ -8,6 +8,8 @@ plan:
   statement: markdowns/part2.md
 - title: Quiz
   statement: markdowns/quiz.md
+- title: Code test
+  statement: markdowns/testcode.md
 projects:
   cpp:
     root: /cpp-exercise
