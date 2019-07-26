@@ -1,4 +1,4 @@
-# Welcome!
+# Bienvenido!
 
 This C++ template lets you get started quickly with a simple one-page playground.
 
@@ -7,10 +7,31 @@ This C++ template lets you get started quickly with a simple one-page playground
 
 using namespace std;
 
-int main() 
+template<typename T>
+void func(T&& a)
 {
-    cout << "Hello, World!";
-    return 0;
+    auto& x = a;
+    cout<<x<<endl;
+}
+
+int main()
+{
+	
+	int x = 2;
+    const int d = 3;
+    int& b = x;
+    const int& c = x;
+    int&& e = 3;
+    const int&& f = 4;
+    func(x);
+    func(d);
+    func(b);
+    func(c);
+    func(e);
+    func(f);
+    func(8);
+       
+	return 0;
 }
 ```
 
