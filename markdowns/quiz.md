@@ -3,6 +3,11 @@
 Una pregunta para repasar lo que acabamos de aprender.
 
 ?[¿Cuál es el error en el siguiente código?]
+-[ ] Está mal declarado el objeto
+-[ ] La función printX no está bien codificada 
+-[x] Los miembros de la clase son privados
+-[ ] Ninguna de las anteriores
+
 ```cpp
 #include <iostream>
 
@@ -27,7 +32,4 @@ int main()
   return 0;
 }
 ```
--[ ] Está mal declarado el objeto
--[ ] La función printX no está bien codificada 
--[x] Los miembros de la clase son privados
--[ ] Ninguna de las anteriores
+
